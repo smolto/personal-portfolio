@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 40px;
+  position: relative
+  
+}
+
+.nav ul{
+  list-style: none;
+}
+
+.nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+  transition: all;
+  transition-duration: .25s;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.menu {
+  flex-grow: 1;
+}
+
+.options ul{
+  margin-left: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.options li{
+  margin-right: 40px;
+  align-self: center;
+}
+
+.contact {
+  margin-left: auto;
+}
+
+
+@media (max-width: 1180px) { 
+  .contact {
+    display: none;
+  }
+}
