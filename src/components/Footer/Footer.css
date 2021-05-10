@@ -1,0 +1,23 @@
+.logos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logos img{
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition-duration: .5s;
+}
+
+.logos img:hover{
+  fill: green;
+}
+
+.logos img:focus{
+  outline: dashed;
+}

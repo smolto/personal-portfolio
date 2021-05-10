@@ -11,17 +11,21 @@ body {
   margin-top: 3rem;
 }
 
-.contact-container {
+.contact-form {
   margin-top: 7rem;
   background-color: var(--primary-color);
   height: auto;
-  position: absolute;
-  left: 0;
   width: 100%;
+  padding-bottom: 2rem;
 }
 
-.contact-form {
-  margin-top: 1.5rem;
-  margin-left: 20%;
-  margin-right: 20%;
+.container__contact {
+  padding-top: 2rem;
+}
+
+.footer {
+  /* position: sticky; */
+  /* bottom: 0; */
+  padding: 0.5rem;
+  background-color: var(--primary-color-dark);
 }
