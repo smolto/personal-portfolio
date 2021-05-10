@@ -31,6 +31,17 @@
   font-size: 50px;
 }
 
+.landing-wrapper__my-work-container {
+  margin-top: 1rem;
+}
+
+.landing-wrapper__my-work-container__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .landing-wrapper__title-container__img {
   margin-right: 2rem;
 }

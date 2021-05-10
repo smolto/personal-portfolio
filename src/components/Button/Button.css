@@ -6,6 +6,13 @@
   cursor: pointer;
   display: flex;
   box-shadow: 1px 1px 0px 0px #ccc;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:focus {
+  opacity: .7;
+  outline: dashed var(--black);
 }
 
 .primary {
@@ -30,11 +37,32 @@
   transition-duration: .3s;
 }
 
+.tertiary {
+  background-color: var(--grey);
+  color: var(--white);
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition-duration: .3s;
+  box-shadow: none;
+}
+
 .primary:hover {
   opacity: .7;
 }
 
 .secondary:hover {
   background-color: #f5f5f5;
+}
+
+.tertiary:hover {
+  opacity: .9;
+}
+
+.tertiary:focus {
+  opacity: 1;
+  outline: dashed var(--black);
 }
 

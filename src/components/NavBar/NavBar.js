@@ -12,6 +12,9 @@ import './NavBar.css'
 
 
 const NavBar = ({ menuOptions }) => {
+
+
+  console.log(menuOptions)
   return (
     <div className="nav">
       <div className="logo">
@@ -28,7 +31,7 @@ const NavBar = ({ menuOptions }) => {
             {
               menuOptions.map(({ link, text }, index) => {
                 return (
-                  <li key={index}><a href={link}>{text}</a></li>
+                  <li key={index}><Link to={link}>{text}</Link></li>
                 )
               })
             }

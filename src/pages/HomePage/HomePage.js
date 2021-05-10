@@ -1,5 +1,6 @@
 import Landing from 'src/components/Landing/Langing'
 import NavBar from 'src/components/NavBar/NavBar'
+import ContactForm from 'src/components/ContactForm/ContactForm'
 import './HomePage.css'
 
 const menuOptions = [
@@ -17,20 +18,28 @@ const menuOptions = [
   }
 ]
 
-export const HomePage = () => {
+const HomePage = () => {
 
 
-  return(
+  return (
     <>
       <div className="container">
-        <NavBar 
+        <NavBar
           menuOptions={menuOptions}
         />
 
         <div className="landing-container">
           <Landing />
         </div>
+
+        <div className="contact-container">
+          <div className="contact-form">
+            <ContactForm />
+          </div>
+        </div>
       </div>
     </>
   )
 }
+
+export default HomePage

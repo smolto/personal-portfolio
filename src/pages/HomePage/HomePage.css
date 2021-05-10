@@ -1,14 +1,27 @@
 body {
-  height: 100vh;
   background-image: url('src/shared/assets/pipes.png');
 }
 
 .container {
   margin-left: 20%;
   margin-right: 20%;
-  height: 100vh;
 }
 
 .landing-container {
   margin-top: 3rem;
+}
+
+.contact-container {
+  margin-top: 7rem;
+  background-color: var(--primary-color);
+  height: auto;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.contact-form {
+  margin-top: 1.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
 }

@@ -1,16 +1,15 @@
-import React from "react";
+import React, { Suspense, lazy } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useRouteMatch,
-  useParams
 } from "react-router-dom";
 
-import { HomePage } from 'src/pages/HomePage/HomePage';
+// import { HomePage } from 'src/pages/HomePage/HomePage';
 import { AboutMePage } from 'src/pages/AboutMePage/AboutMePage';
 import { MyWorkPage } from 'src/pages/MyWorkPage/MyWorkPage';
+
+const HomePage = lazy(() => import('src/pages/HomePage/HomePage'))
 
 export default function App() {
   return (
@@ -24,7 +23,9 @@ export default function App() {
             <MyWorkPage />
           </Route>
           <Route path="/">
-            <HomePage />
+            <Suspense fallback={<h1>Loading...</h1>}>
+              <HomePage />
+            </Suspense>
           </Route>
         </Switch>
       </div>

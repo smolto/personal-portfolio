@@ -1,0 +1,34 @@
+.input {
+  padding: 1rem 0.8rem;
+  border-radius: 9999px;
+  -webkit-border-radius: 9999px;
+  -moz-border-radius: 9999px;
+  -ms-border-radius: 9999px;
+  -o-border-radius: 9999px;
+  border: none;
+  padding-left: 2rem;
+}
+
+.input:focus {
+  outline: none;
+  /* box-shadow: 1px 1px 7px 0px #000; */
+  border-style: dashed;
+}
+
+.textarea {
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  resize: none;
+  padding: 1rem 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.textarea:focus {
+  outline: none;
+  box-shadow: 1px 1px 7px 0px #000;
+}

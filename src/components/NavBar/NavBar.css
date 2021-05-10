@@ -26,6 +26,10 @@
   color: var(--primary-color);
 }
 
+.nav a:focus {
+  outline: dashed var(--primary-color);
+}
+
 .logo {
   margin-right: 20px;
 }
