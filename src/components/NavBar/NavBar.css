@@ -57,8 +57,18 @@
 }
 
 
-@media (max-width: 1180px) { 
+@media (max-width: 1186px) { 
   .contact {
     display: none;
+  }
+}
+
+@media (max-width: 943px) { 
+  .logo {
+    display: block;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1.3rem;
   }
 }

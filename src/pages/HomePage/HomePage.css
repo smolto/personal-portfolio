@@ -29,3 +29,11 @@ body {
   padding: 0.5rem;
   background-color: var(--primary-color-dark);
 }
+
+
+@media only screen and (max-width: 943px) {
+  .container {
+    margin: 0;
+  }
+}
+
