@@ -7,12 +7,19 @@
   -o-border-radius: 9999px;
   border: none;
   padding-left: 2rem;
+  transition: all;
+  -webkit-transition: all;
+  -moz-transition: all;
+  -ms-transition: all;
+  -o-transition: all;
+  transition-duration: .10s;
 }
 
 .input:focus {
   outline: none;
-  /* box-shadow: 1px 1px 7px 0px #000; */
-  border-style: dashed;
+  box-shadow: 1px 1px 7px 0px #000;
+  /* border-style: dashed; */
+  background: #ededed;
 }
 
 .textarea {
@@ -21,14 +28,21 @@
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  transition: .25s;
+  transition-duration: .10s;
   resize: none;
   padding: 1rem 0.8rem;
   padding-left: 2rem;
   padding-right: 2rem;
   width: 100%;
+  -webkit-transition: .25s;
+  -moz-transition: .25s;
+  -ms-transition: .25s;
+  -o-transition: .25s;
 }
 
 .textarea:focus {
-  outline: none;
+  /* outline: none; */
+  background: #ededed;
   box-shadow: 1px 1px 7px 0px #000;
 }
