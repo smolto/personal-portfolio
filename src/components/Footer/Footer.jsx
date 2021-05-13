@@ -5,11 +5,17 @@ import LinkedInLogo from 'src/shared/assets/linkedin_logo.svg'
 import FigmaLogo from 'src/shared/assets/figma_logo.svg'
 
 const Footer = () => {
-  return(
+  return (
     <div className="logos">
-      <img src={GitHubLogo} alt={GitHubLogo} width={40}/>
-      <img src={LinkedInLogo} alt={LinkedInLogo} width={40}/>
-      <img src={FigmaLogo} alt={FigmaLogo} width={40}/>
+      <div className="logo_social_media">
+        <a href="#"><img src={GitHubLogo} alt={GitHubLogo} width={40} /></a>
+      </div>
+      <div className="logo_social_media">
+        <a href="#"><img src={LinkedInLogo} alt={LinkedInLogo} width={40} /></a>
+      </div>
+      <div className="logo_social_media">
+        <a href="#"><img src={FigmaLogo} alt={FigmaLogo} width={40} /></a>
+      </div>
     </div>
   )
 }

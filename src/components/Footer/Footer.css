@@ -3,9 +3,17 @@
   justify-content: flex-end;
 }
 
-.logos img{
-  cursor: pointer;
+.logo_social_media {
   margin-left: 1rem;
+}
+
+.logo_social_media a{
+  display: inline-block;
+}
+
+.logo_social_media img{
+  display: block;
+  cursor: pointer;
   transition: all;
   -webkit-transition: all;
   -moz-transition: all;
@@ -14,10 +22,6 @@
   transition-duration: .5s;
 }
 
-.logos img:hover{
-  fill: green;
-}
-
-.logos img:focus{
-  outline: dashed;
+.logo_social_media a:focus{
+  outline: dashed black;
 }

@@ -11,7 +11,7 @@
 }
 
 .btn:focus {
-  opacity: .7;
+  opacity: 1;
   outline: dashed var(--black);
 }
 
