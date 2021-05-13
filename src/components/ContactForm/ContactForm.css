@@ -37,6 +37,7 @@
 
 .formsubmit_info span{
   margin-right: 5px;
+  color: var(--white);
 }
 
 @media (max-width: 539px) { 

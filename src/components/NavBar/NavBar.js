@@ -42,7 +42,7 @@ const NavBar = ({ menuOptions }) => {
       <div className="contact">
         <Button
           text={`Contact me`}
-          cssClass={`primary bold medium-text`}
+          cssClass={`secondary bold medium-text`}
         />
       </div>
     </div>
