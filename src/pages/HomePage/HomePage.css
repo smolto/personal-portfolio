@@ -2,38 +2,37 @@ body {
   background-image: url('src/shared/assets/pipes.png');
 }
 
-.container {
+/* .container {
   margin-left: 20%;
   margin-right: 20%;
-}
+}*/
 
-.landing-container {
+/* .landing-container {
   margin-top: 3rem;
-}
+} */
 
 .contact-form {
-  margin-top: 7rem;
+  margin-top: 2rem;
   background-color: var(--primary-color);
   height: auto;
   width: 100%;
   padding-bottom: 2rem;
 }
 
-.container__contact {
+/* .container__contact {
   padding-top: 2rem;
-}
+} */
 
 .footer {
-  /* position: sticky; */
-  /* bottom: 0; */
+  bottom: 0;
   padding: 0.5rem;
   background-color: var(--primary-color-dark);
 }
 
 
-@media only screen and (max-width: 943px) {
+/* @media only screen and (max-width: 943px) {
   .container {
     margin: 0;
   }
-}
+} */
 

@@ -17,7 +17,7 @@ const ContactForm = () => {
         <h1>Contact</h1>
       </div>
       <form target="_blank" action="https://formsubmit.co/santiagomoltomartinez@gmail.com	" method="POST">
-        <div className="contact-wrapper__grid">
+        <div className="contact-wrapper__inputs">
           <Input
             type={`text`}
             name={`name`}
@@ -50,16 +50,14 @@ const ContactForm = () => {
             placeholder={`Phone number ...`}
             cssClass={`input medium-text`}
           />
-          <div className="col-2">
-            <Input
-              type={`textarea`}
-              name={`reason`}
-              value={reason}
-              onChange={setReason}
-              placeholder={`Reason ...`}
-              cssClass={`input medium-text`}
-            />
-          </div>
+          <Input
+            type={`textarea`}
+            name={`reason`}
+            value={reason}
+            onChange={setReason}
+            placeholder={`Reason ...`}
+            cssClass={`input medium-text`}
+          />
         </div>
         <div className="contact-wrapper__submit">
           <Input

@@ -21,7 +21,6 @@ const NavBar = ({ menuOptions }) => {
         <Image
           src={logo}
           alt={`logo`}
-          width={150}
         />
       </div>
 

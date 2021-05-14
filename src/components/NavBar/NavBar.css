@@ -1,5 +1,51 @@
 .nav {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.nav img{
+  width: 100px;
+}
+
+.nav ul{
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0.7rem 0.8rem;
+}
+
+.nav a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--black);
+  transition: all;
+  transition-duration: .25s;
+}
+
+.nav a:hover {
+  color: var(--primary-color);
+}
+
+.nav a:focus {
+  outline: dashed var(--primary-color);
+}
+
+.nav .contact {
+  display: none;
+}
+
+
+
+
+
+
+/* .nav {
+  display: flex;
   flex-direction: row;
   align-items: center;
   flex-wrap: wrap;
@@ -71,4 +117,4 @@
     width: 100%;
     margin-bottom: 1.3rem;
   }
-}
+} */
