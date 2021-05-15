@@ -14,7 +14,7 @@
 }
 
 .contact-wrapper__inputs {
-  margin: 1.3rem 1rem;
+  margin: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,6 +40,19 @@
 .formsubmit_info span{
   margin-right: 5px;
   color: var(--white);
+}
+
+/* Tablet mode */
+@media (min-width: 768px) {
+  .contact-wrapper__inputs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.8rem;
+  }
+
+  textarea {
+    grid-column: 1/3;
+  }
 }
 
 /*.col-2 {

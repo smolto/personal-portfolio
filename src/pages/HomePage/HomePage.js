@@ -1,4 +1,4 @@
-import Landing from 'src/components/Landing/Langing'
+import Landing from 'src/components/Landing/Landing'
 import NavBar from 'src/components/NavBar/NavBar'
 import ContactForm from 'src/components/ContactForm/ContactForm'
 import Footer from 'src/components/Footer/Footer'
