@@ -20,7 +20,7 @@ const Landing = () => {
             <div className="landing-wrapper__my-work-container__button">
               <Button
                 text={`My Work`}
-                cssClass={`primary medium-text`}
+                cssClass={`primary-smm medium-text`}
                 icon={search_icon}
                 iconSize={30}
               />

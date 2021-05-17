@@ -42,6 +42,10 @@
   color: var(--white);
 }
 
+.contact-wrapper__alert {
+  margin-top: 1rem;
+}
+
 /* Tablet mode */
 @media (min-width: 768px) {
   .contact-wrapper__inputs {
