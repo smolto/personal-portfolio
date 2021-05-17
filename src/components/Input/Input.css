@@ -13,6 +13,7 @@
   -ms-transition: all;
   -o-transition: all;
   transition-duration: .10s;
+  width: 100%;
 }
 
 .input:focus {
@@ -45,4 +46,12 @@
   /* outline: none; */
   background: #ededed;
   box-shadow: 1px 1px 7px 0px #000;
+}
+
+.input-label {
+  color: var(--white);
+  display: block;
+  padding-left: 0.7rem;
+  border-bottom: 1px solid green;
+  margin-bottom: 0.5rem;
 }
