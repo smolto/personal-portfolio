@@ -8,7 +8,8 @@ import './HomePage.css'
 const menuOptions = [
   {
     link: '/',
-    text: 'Home'
+    text: 'Home',
+    selected: 'selected'
   },
   {
     link: '/about',

@@ -146,7 +146,7 @@ const ContactForm = () => {
           </div>
           <div className="formsubmit_info">
             <span>Powered by</span>
-            <a href="https://formsubmit.co/?utm_source=formsubmit.co&amp;utm_medium=site%20link&amp;utm_campaign=submission%20page" rel="no-follow">
+            <a id={`formsubmit_info`} href="https://formsubmit.co/?utm_source=formsubmit.co&amp;utm_medium=site%20link&amp;utm_campaign=submission%20page" rel="no-follow">
               <img height="35px" src="https://formsubmit.co/image/logo.png" alt="FormSubmit logo" />
             </a>
           </div>

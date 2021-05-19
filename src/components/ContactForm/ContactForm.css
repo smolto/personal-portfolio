@@ -42,8 +42,13 @@
   color: var(--white);
 }
 
+
 .contact-wrapper__alert {
   margin-top: 1rem;
+}
+
+#formsubmit_info:focus {
+  outline: dashed var(--black);
 }
 
 /* Tablet mode */

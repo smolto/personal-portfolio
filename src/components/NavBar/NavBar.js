@@ -28,9 +28,9 @@ const NavBar = ({ menuOptions }) => {
         <div className="options">
           <ul>
             {
-              menuOptions.map(({ link, text }, index) => {
+              menuOptions.map(({ link, text, selected }, index) => {
                 return (
-                  <li key={index}><Link to={link}>{text}</Link></li>
+                  <li className={selected} key={index}><Link to={link}>{text}</Link></li>
                 )
               })
             }
