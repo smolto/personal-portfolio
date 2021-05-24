@@ -1,22 +1,30 @@
 .landing-wrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
   flex-grow: 1;
 }
 
-.landing-wrapper__title-container {
+.landing-wrapper__first-item {
   display: block;
   width: 100%;
   text-align: center;
   max-width: 100%;
 }
 
-.landing-wrapper__title-container__img {
+.landing-wrapper__second-item {
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: center;
+  /* margin-top: 2rem; */
+}
+
+/* .landing-wrapper__first-item__img {
   display: none;
 }
 
-.landing-wrapper__image-container {
+.landing-wrapper__second-item {
   padding: 0;
   margin: 0;
   display: block;
@@ -24,7 +32,7 @@
   margin-top: 2rem;
 }
 
-.landing-wrapper__title-container__subtitle {
+.landing-wrapper__first-item__subtitle {
   font-weight: 800;
   letter-spacing: 10px;
   color: var(--grey);
@@ -32,7 +40,7 @@
   font-size: 1rem;
 }
 
-.landing-wrapper__title-container__title {
+.landing-wrapper__first-item__title {
   color: var(--black);
   font-size: 2.5rem;
   font-weight: 700;
@@ -45,32 +53,26 @@
   justify-content: center;
 }
 
-.landing-wrapper__image-container img{
+.landing-wrapper__second-item img{
   width: 320px;
-}
+} */
 
 /* Tablet mode */
-@media (min-width: 768px) {
+@media (min-width: 1300px) {
   .landing-wrapper {
-    margin: 1rem 2rem;
     flex-direction: row;
     justify-content: space-between;
   }
 
-  .landing-wrapper {
-    margin: 1rem 2rem;
-    flex-direction: row;
-  }
-
-  .landing-wrapper__title-container {
+  .landing-wrapper__first-item {
     max-width: 20rem;
   }
 
-  .landing-wrapper__title-container__subtitle {
+  /* .landing-wrapper__first-item__subtitle {
     font-size: 19px;
   }  
 
-  .landing-wrapper__title-container__title {
+  .landing-wrapper__first-item__title {
     font-size: 50px;
   }
 
@@ -78,11 +80,11 @@
     width: 600px;
   }
 
-  .landing-wrapper__title-container__img {
+  .landing-wrapper__first-item__img {
     display: initial;
   }
 
-  .landing-wrapper__title-container__img img{
+  .landing-wrapper__first-item__img img{
     margin-left: 4rem;
-  }
+  } */
 }

@@ -1,4 +1,4 @@
-body {
+/* body {
   background-image: url('src/shared/assets/pipes.png');
 }
 
@@ -46,12 +46,12 @@ body {
 .landing-wrapper__title-container__img {
   margin-left: 4rem;
   margin-right: -3rem;
-}
+} */
 
 
 
 /* Desktop mode */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .container {
     margin-left: 20%;
     margin-right: 20%;
@@ -90,7 +90,7 @@ body {
   .landing-wrapper__title-container {
     max-width: 20rem;
   }
-}
+} */
 
 
 

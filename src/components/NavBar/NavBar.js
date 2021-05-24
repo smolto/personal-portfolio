@@ -11,7 +11,7 @@ import logo from 'src/shared/assets/logo.svg'
 import './NavBar.css'
 
 
-const NavBar = ({ menuOptions }) => {
+const NavBar = ({ menuOptions, showContactButton }) => {
 
 
   console.log(menuOptions)
@@ -38,12 +38,16 @@ const NavBar = ({ menuOptions }) => {
         </div>
       </div>
 
-      <div className="contact">
-        <Button
-          text={`Contact me`}
-          cssClass={`secondary-smm bold medium-text`}
-        />
-      </div>
+      {
+        showContactButton &&
+        <div className="contact">
+          <Button
+            text={`Contact me`}
+            cssClass={`secondary-smm bold medium-text`}
+          />
+        </div>
+      }
+
     </div>
   )
 }
