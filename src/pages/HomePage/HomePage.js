@@ -64,47 +64,39 @@ const HomePage = () => {
     <>
       <div className="smm__container">
         <div className="smm__container-wrapper">
-          <NavBar
-            menuOptions={menuOptions}
-            showContactButton={true}
-          />
+          <div className="smm__container-wrapper__components">
+            <NavBar
+              menuOptions={menuOptions}
+              showContactButton={true}
+            />
 
-          <Landing
-            htmlItem1={htmlItem1}
-            htmlItem2={htmlItem2}
-          />
+            <Landing
+              htmlItem1={htmlItem1}
+              htmlItem2={htmlItem2}
+            />
+          </div>
         </div>
+
+        <div className="smm__container-wrapper">
+          <div className="smm__container-wrapper__contact-container">
+            <div className="smm__container-wrapper">
+              <div className="smm__container-wrapper__components">
+                <ContactForm />
+              </div>
+            </div>
+          </div>
+          <div className="smm__container-wrapper__footer-component">
+            <div className="smm__container-wrapper">
+              <div className="smm__container-wrapper__components">
+                <Footer />
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   )
 }
 
 export default HomePage
-
-{/* <div className="landing">
-        <div className="container">
-          <NavBar
-            menuOptions={menuOptions}
-          />
-
-          <div className="landing-container">
-            <Landing>
-
-            </Landing>
-          </div>
-        </div>
-      </div>
-
-      <div className="contact-form">
-        <div className="container">
-          <div className="container__contact">
-            <ContactForm />
-          </div>
-        </div>
-      </div>
-
-      <div className="footer">
-        <div className="container">
-          <Footer />
-        </div>
-      </div> */}

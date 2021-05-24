@@ -14,10 +14,3 @@ const Landing = ({ htmlItem1, htmlItem2 }) => {
 }
 
 export default Landing;
-
-{/* <div className="landing-wrapper">
-        
-        <div className="landing-wrapper__image-container">
-          <img src={landing_img} alt="landing_img" width={700} />
-        </div>
-      </div> */}

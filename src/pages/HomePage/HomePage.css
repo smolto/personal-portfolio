@@ -54,6 +54,20 @@
   width: 320px;
 }
 
+.smm__container-wrapper__contact-container {
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.smm__container-wrapper__footer-component {
+  width: 100%;
+  bottom: 0;
+  padding: 0.5rem;
+  background-color: var(--primary-color-dark);
+}
+
 @media (min-width: 768px) { 
 
   .landing-img {
@@ -78,16 +92,15 @@
   .landing-img img{
     width: 700px;
   }
+
+  .landing-message__subtitle {
+    font-size: 19px;
+  }  
+
+  .landing-message__title {
+    font-size: 50px;
+  }
 }
-
-
-
-/* .landing-wrapper__my-work-container__button {
-  margin-top: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 
 

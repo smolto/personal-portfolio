@@ -26,12 +26,14 @@ body {
 .smm__container {
   width: 100%;
   display: block;
+  margin-top: 2rem;
 }
 
-.smm__container-wrapper {
+.smm__container-wrapper__components {
   width: 100%;
   display: block;
-  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -39,22 +41,22 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  }
-
-  .smm__container-wrapper {
-    max-width: 70%;
+    flex-wrap: nowrap;
+    flex-direction: column;
   }
 }
 
 @media (min-width: 1300px) {
-  .smm__container {
+  .smm__container-wrapper {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
   }
 
-  .smm__container-wrapper {
-    max-width: 70%;
+  .smm__container-wrapper__components {
+    width: 70%;
   }
+  
 }
 
