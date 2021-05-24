@@ -43,6 +43,13 @@ body {
   background-color: var(--primary-color-dark);
 }
 
+.landing-wrapper__title-container__img {
+  margin-left: 4rem;
+  margin-right: -3rem;
+}
+
+
+
 /* Desktop mode */
 @media (min-width: 768px) {
   .container {
