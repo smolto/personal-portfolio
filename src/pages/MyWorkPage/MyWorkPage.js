@@ -1,10 +1,15 @@
+//COMPONENTS
 import NavBar from 'src/components/NavBar/NavBar'
+import Landing from 'src/components/Landing/Landing'
 import Footer from 'src/components/Footer/Footer'
 
-import 'src/pages/MyWorkPage/MyWorkPage.css'
-
+//IMAGES
 import signature from 'src/shared/assets/signature.svg'
 
+//STYLES
+import 'src/pages/MyWorkPage/MyWorkPage.css'
+
+//MENU OPTIONS
 const menuOptions = [
   {
     link: '/',
@@ -22,9 +27,53 @@ const menuOptions = [
 ]
 
 export const MyWorkPage = () => {
+
+  const htmlItem1 =
+    (
+      <>
+        <div className="landing-message">
+          <h3 className={`landing-message__subtitle`}>Hard worker</h3>
+          <h1 className={`landing-message__title`}>My work.</h1>
+          <h1 className={`landing-message__title`}>Well done</h1>
+          <div className={`landing-message__img`}>
+            <img src={signature} alt="sign" width={150} />
+          </div>
+        </div>
+      </>
+    )
+
+  const htmlItem2 =
+    (
+      <div className="landing-description">
+        <h6 className="landing-description__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque minima laboriosam nam corporis, dolorem laborum odio veritatis hic aliquam repudiandae, ducimus harum? Officiis aut id dolore soluta natus ullam numquam?</h6>
+      </div>
+    )
+
   return (
     <>
-      <div className="landing">
+      <div className="smm__container">
+        <div className="smm__container-wrapper">
+          <div className="smm__container-wrapper__components">
+            <div className="smm__container-wrapper__components__nav-component">
+              <NavBar
+                menuOptions={menuOptions}
+                showContactButton={true}
+              />
+            </div>
+            <Landing
+              htmlItem1={htmlItem1}
+              htmlItem2={htmlItem2}
+            >
+              <div className="border-separator"></div>
+            </Landing>
+          </div>
+        </div>
+      </div>
+    </>
+  )
+}
+
+{/* <div className="landing">
         <div className="container">
           <NavBar
             menuOptions={menuOptions}
@@ -50,7 +99,4 @@ export const MyWorkPage = () => {
         <div className="container">
           <Footer />
         </div>
-      </div>
-    </>
-  )
-}
+      </div> */}

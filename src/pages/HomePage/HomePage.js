@@ -10,9 +10,10 @@ import signature from 'src/shared/assets/signature.svg'
 import landing_img from 'src/shared/assets/landing-img.svg'
 import search_icon from 'src/shared/assets/search_icon.svg'
 
-
+//STYLES
 import './HomePage.css'
 
+//MENU OPTIONS
 const menuOptions = [
   {
     link: '/',
@@ -65,10 +66,11 @@ const HomePage = () => {
       <div className="smm__container">
         <div className="smm__container-wrapper">
           <div className="smm__container-wrapper__components">
-            <NavBar
-              menuOptions={menuOptions}
-              showContactButton={true}
-            />
+            <div className="smm__container-wrapper__components__nav-component">
+              <NavBar
+                menuOptions={menuOptions}
+              />
+            </div>
 
             <Landing
               htmlItem1={htmlItem1}

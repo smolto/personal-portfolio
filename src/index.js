@@ -6,6 +6,7 @@ import App from './App';
 import './index.css';
 import 'src/shared/styles/root.css'
 import 'src/shared/styles/text.css'
+import 'src/shared/styles/landing.css'
 
 ReactDOM.render(
   <React.StrictMode>

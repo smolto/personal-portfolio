@@ -29,7 +29,7 @@
   text-decoration: none;
   color: var(--black);
   transition: all;
-  transition-duration: .25s;
+  transition-duration: .15s;
 }
 
 .nav a:hover {
