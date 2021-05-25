@@ -5,6 +5,7 @@ import Footer from 'src/components/Footer/Footer'
 
 //IMAGES
 import signature from 'src/shared/assets/signature.svg'
+import project1 from 'src/shared/assets/projects/project1.svg'
 
 //STYLES
 import 'src/pages/MyWorkPage/MyWorkPage.css'
@@ -66,6 +67,33 @@ export const MyWorkPage = () => {
             >
               <div className="border-separator"></div>
             </Landing>
+          </div>
+
+          <div className="smm__container-wrapper">
+            <div className="smm__container-wrapper__projects-container">
+              <div className="smm__container-wrapper">
+                <div className="smm__container-wrapper__components">
+                  <div className="smm__container-wrapper__components__project-component">
+                    <div className="smm__container-wrapper__components__project-component__project">
+                      
+                    </div>
+                    <div className="smm__container-wrapper__components__project-component__project">
+                      
+                    </div>
+                    <div className="smm__container-wrapper__components__project-component__project">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="smm__container-wrapper__footer-component">
+              <div className="smm__container-wrapper">
+                <div className="smm__container-wrapper__components">
+                  <Footer />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
