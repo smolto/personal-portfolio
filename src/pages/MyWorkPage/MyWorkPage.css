@@ -20,51 +20,14 @@
   padding: 1.5rem;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  justify-content: center;
-  align-content: center;
-  grid-gap: 20px;
-}
-
-.smm__container-wrapper__components__project-component__project {
-  transition: all;
-  -webkit-transition: all;
-  -moz-transition: all;
-  -ms-transition: all;
-  -o-transition: all;
-  transition-duration: 0.7s;
-
-  display: flex;
   justify-items: center;
-  align-self: center;
-
-
-  background: url('./../../shared/assets/projects/project1.svg') no-repeat;
-  background-size: 100%;
-  background-size: cover;
-  background-clip: border-box;
-  background-position: center;
-
-  height: 12rem;
-
-  border-radius: 5rem;
-  -webkit-border-radius: 5rem;
-  -moz-border-radius: 5rem;
-  -ms-border-radius: 5rem;
-  -o-border-radius: 5rem;
-}
-
-.smm__container-wrapper__components__project-component__project:hover{
-  filter: grayscale(50%);
-  -webkit-filter: grayscale(50%);
+  align-items: center;
+  grid-gap: 20px;
 }
 
 @media (min-width: 768px) {
   .smm__container-wrapper__components__project-component {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .smm__container-wrapper__components__project-component__project {
-    height: 15rem;
   }
 }
 

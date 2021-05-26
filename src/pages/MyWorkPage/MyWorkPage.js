@@ -2,6 +2,7 @@
 import NavBar from 'src/components/NavBar/NavBar'
 import Landing from 'src/components/Landing/Landing'
 import Footer from 'src/components/Footer/Footer'
+import Project from 'src/components/Project/Project'
 
 //IMAGES
 import signature from 'src/shared/assets/signature.svg'
@@ -74,15 +75,33 @@ export const MyWorkPage = () => {
               <div className="smm__container-wrapper">
                 <div className="smm__container-wrapper__components">
                   <div className="smm__container-wrapper__components__project-component">
-                    <div className="smm__container-wrapper__components__project-component__project">
-                      
-                    </div>
-                    <div className="smm__container-wrapper__components__project-component__project">
-                      
-                    </div>
-                    <div className="smm__container-wrapper__components__project-component__project">
-                      
-                    </div>
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
+                    <Project 
+                      bgImg={project1}
+                    />
                   </div>
                 </div>
               </div>

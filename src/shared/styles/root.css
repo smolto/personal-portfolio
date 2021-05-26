@@ -9,6 +9,7 @@
 
 body {
   background-image: url('src/shared/assets/pipes.png');
+  overflow: auto;
 }
 
 *{
@@ -25,8 +26,9 @@ body {
 /* BASIC LAYOUT */
 .smm__container {
   width: 100%;
-  display: block;
   margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .smm__container-wrapper__components {
@@ -42,7 +44,6 @@ body {
 
 @media (min-width: 768px) {
   .smm__container {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
