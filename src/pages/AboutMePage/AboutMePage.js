@@ -70,18 +70,27 @@ export const AboutMePage = () => {
           </div>
 
           <div className="smm__container-wrapper">
-            <div className="smm__container-wrapper__components">
-              <div className="smm__container-wrapper__content">
-                <div className="smm__container-wrapper__content__tech">
-                  <div className="smm__container-wrapper__content__tech-stack">
-                    <h4>Tech Stack</h4>
-                    <img src={techStack} alt="stack" width={250} />
-                  </div>
+            <div className="smm__container-wrapper__about-me-container">
+              <div className="smm__container-wrapper__components">
+                <div className="smm__container-wrapper__content">
+                  <div className="smm__container-wrapper__content__tech">
+                    <div className="smm__container-wrapper__content__tech-stack">
+                      <h4>Tech Stack</h4>
+                      <img src={techStack} alt="stack" width={250} />
+                    </div>
 
-                  <div className="smm__container-wrapper__content__tech-stack">
-                    <h4>Development Tools</h4>
-                    <img src={devTools} alt="tech" width={250} />
+                    <div className="smm__container-wrapper__content__tech-stack">
+                      <h4>Development Tools</h4>
+                      <img src={devTools} alt="tech" width={250} />
+                    </div>
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="smm__container-wrapper__footer-component">
+              <div className="smm__container-wrapper">
+                <div className="smm__container-wrapper__components">
+                  <Footer />
                 </div>
               </div>
             </div>
