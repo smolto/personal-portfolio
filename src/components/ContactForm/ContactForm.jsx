@@ -48,7 +48,7 @@ const ContactForm = () => {
 
     if (data.email.trim() === '') {
       isOk = false
-      message.push('Name is empty')
+      message.push('Email is empty')
     }
 
     if (data.reason.trim() === '') {
@@ -136,7 +136,7 @@ const ContactForm = () => {
             {showAlert === true && <Alert variant="warning">
               <Alert.Heading>Something required is not completed</Alert.Heading>
               <p>
-                Remember that * means required, please inspect each input field is not empty
+                Remember that <span style={{color: '#AB000D'}}>*</span> means required, please inspect each input field is not empty
               </p>
               <hr />
               <p className="mb-0">
