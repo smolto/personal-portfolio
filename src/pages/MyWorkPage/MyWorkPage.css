@@ -3,6 +3,7 @@
 }
 
 .smm__container-wrapper__projects-container {
+  flex-grow: 1;
   margin-top: 2rem;
   background-color: var(--white);
   width: 100%;

@@ -53,6 +53,7 @@ body {
 
 @media (min-width: 1300px) {
   .smm__container-wrapper {
+    flex-grow: 1;
     width: 100%;
     display: flex;
     align-items: center;

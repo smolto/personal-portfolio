@@ -18,25 +18,18 @@
   -moz-border-radius: 5rem;
   -ms-border-radius: 5rem;
   -o-border-radius: 5rem;
-
-  display: none;
-
-  background: var(--primary-color);
-  opacity: 0.8;
-
-  transition: all;
-  -webkit-transition: all;
-  -moz-transition: all;
-  -ms-transition: all;
-  -o-transition: all;
-  transition-duration: 0.7s;
-}
-
-.element__content__background {
-    
-    position: relative;
-    width: 100%;
-    height: 100%;
+  /*display: none;
+  */background: var(--primary-color);
+  opacity: 0;
+  transition: all ;
+  -webkit-transition: all ;
+  -moz-transition: all ;
+  -ms-transition: all ;
+  -o-transition: all ;
+  transition-duration: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .element__content img {
@@ -45,7 +38,6 @@
 }
 
 .element:hover .element__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    opacity: .8;
+    
 }

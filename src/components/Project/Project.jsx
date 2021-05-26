@@ -23,10 +23,10 @@ const Project = ({ bgImg }) => {
     <ProjectStyled className={`element`} bgImg={bgImg}>
       <div className="element__content">
         <a href="/" target="_blank">
-          <img src={gitHubLogo} />
+          <img src={gitHubLogo} alt='gitHubLogo'/>
         </a>
         <a href="/" target="_blank">
-          <img src={desktopImg} />
+          <img src={desktopImg} alt='desktopLogo'/>
         </a>
       </div>
     </ProjectStyled>
