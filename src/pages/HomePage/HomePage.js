@@ -1,3 +1,5 @@
+import { useHistory } from 'react-router'
+
 //COMPONENTS
 import Landing from 'src/components/Landing/Landing'
 import NavBar from 'src/components/NavBar/NavBar'
@@ -32,6 +34,8 @@ const menuOptions = [
 
 const HomePage = () => {
 
+  const history = useHistory()
+
   const htmlItem1 =
     (
       <div className="landing-message">
@@ -47,6 +51,9 @@ const HomePage = () => {
               cssClass={`primary-smm medium-text`}
               icon={search_icon}
               iconSize={30}
+              parentFuction={() => {
+                history.push('/work')
+              }}
             />
           </div>
         </div>
@@ -87,7 +94,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <div className="smm__container-wrapper__footer-component">
+          <div className="smm__container-wrapper__footer-component" id='contact'>
             <div className="smm__container-wrapper">
               <div className="smm__container-wrapper__components">
                 <Footer />

@@ -2,7 +2,6 @@
 import NavBar from 'src/components/NavBar/NavBar'
 import Landing from 'src/components/Landing/Landing'
 import Footer from 'src/components/Footer/Footer'
-import Project from 'src/components/Project/Project'
 
 //IMAGES
 import techStack from 'src/shared/assets/dev_stack.svg'
