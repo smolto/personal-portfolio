@@ -7,6 +7,8 @@ import Project from 'src/components/Project/Project'
 //IMAGES
 import signature from 'src/shared/assets/signature.svg'
 import project1 from 'src/shared/assets/projects/project1.svg'
+import project from 'src/shared/assets/projects/project1.png'
+import project2 from 'src/shared/assets/projects/project2.png'
 
 //STYLES
 import 'src/pages/MyWorkPage/MyWorkPage.css'
@@ -47,14 +49,18 @@ export const MyWorkPage = () => {
   const htmlItem2 =
     (
       <div className="landing-description">
-        <h6 className="landing-description__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque minima laboriosam nam corporis, dolorem laborum odio veritatis hic aliquam repudiandae, ducimus harum? Officiis aut id dolore soluta natus ullam numquam?</h6>
+        <h6 className="landing-description__content">
+          Here you can see a small sample of personal projects that I have been building in my free time.
+          <br />
+          This projects are build using React.js framework and deployed on Vercel Platform.
+        </h6>
       </div>
     )
 
   return (
     <>
       <div className="smm__container">
-        <div className="smm__container-wrapper" style={{height: '100vh'}}>
+        <div className="smm__container-wrapper">
           <div className="smm__container-wrapper__components">
             <div className="smm__container-wrapper__components__nav-component">
               <NavBar
@@ -76,10 +82,14 @@ export const MyWorkPage = () => {
                 <div className="smm__container-wrapper__components">
                   <div className="smm__container-wrapper__components__project-component">
                     <Project 
-                      bgImg={project1}
+                      bgImg={project}
+                      gitHubLink={'https://github.com/smolto/bikers-shedule'}
+                      webLink={'https://bikers-shedule.vercel.app/'}
                     />
                     <Project 
-                      bgImg={project1}
+                      bgImg={project2}
+                      gitHubLink={'https://github.com/smolto/trivial-clone'}
+                      webLink={'https://trivial-clone.vercel.app/'}
                     />
                     <Project 
                       bgImg={project1}

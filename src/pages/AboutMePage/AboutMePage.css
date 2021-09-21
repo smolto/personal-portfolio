@@ -1,3 +1,11 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .smm__container-wrapper__components__about-me {
   margin: 1rem 2rem;
 }
@@ -31,7 +39,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: 100%;
   margin-top: 2rem;
 }
@@ -76,6 +84,24 @@
   margin-top: 1.3rem;
   margin-bottom: 0.7rem;
   font-size: 1.5rem;
+}
+
+.smm__container-wrapper__content__skills {
+  text-align: center;
+}
+
+.smm__container-wrapper__content__skills h4{
+  margin-top: 1.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.smm__container-wrapper__content__skills ul{
+  text-align: justify;
+}
+
+.smm__container-wrapper__content__skills ul li{
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 768px) {

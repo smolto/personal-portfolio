@@ -18,14 +18,14 @@ const ProjectStyled = styled.div.attrs((props) => ({
   background-position: center;
 `;
 
-const Project = ({ bgImg }) => {
+const Project = ({ bgImg, gitHubLink = '/', webLink = '/' }) => {
   return (
     <ProjectStyled className={`element`} bgImg={bgImg}>
       <div className="element__content">
-        <a href="/" target="_blank">
+        <a href={gitHubLink} target="_blank" rel="noreferrer">
           <img src={gitHubLogo} alt='gitHubLogo'/>
         </a>
-        <a href="/" target="_blank">
+        <a href={webLink} target="_blank" rel="noreferrer">
           <img src={desktopImg} alt='desktopLogo'/>
         </a>
       </div>
