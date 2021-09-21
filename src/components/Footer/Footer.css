@@ -19,9 +19,10 @@
   -moz-transition: all;
   -ms-transition: all;
   -o-transition: all;
-  transition-duration: .5s;
+  transition-duration: .15s;
 }
 
 .logo_social_media a:focus{
   outline: dashed black;
 }
+

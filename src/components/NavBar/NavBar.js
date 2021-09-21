@@ -10,18 +10,21 @@ import logo from 'src/shared/assets/logo.svg'
 
 import './NavBar.css'
 
+import { HashLink } from 'react-router-hash-link'
 
-const NavBar = ({ menuOptions }) => {
+import { useHistory } from 'react-router'
 
 
-  console.log(menuOptions)
+const NavBar = ({ menuOptions, showContactButton }) => {
+
+  const history = useHistory()
+  
   return (
     <div className="nav">
       <div className="logo">
         <Image
           src={logo}
           alt={`logo`}
-          width={150}
         />
       </div>
 
@@ -29,9 +32,9 @@ const NavBar = ({ menuOptions }) => {
         <div className="options">
           <ul>
             {
-              menuOptions.map(({ link, text }, index) => {
+              menuOptions.map(({ link, text, selected }, index) => {
                 return (
-                  <li key={index}><Link to={link}>{text}</Link></li>
+                  <li className={selected} key={index}><Link to={link}>{text}</Link></li>
                 )
               })
             }
@@ -39,12 +42,13 @@ const NavBar = ({ menuOptions }) => {
         </div>
       </div>
 
-      <div className="contact">
-        <Button
-          text={`Contact me`}
-          cssClass={`secondary bold medium-text`}
-        />
-      </div>
+      {
+        showContactButton &&
+        <div className="contact">
+          <HashLink to="/#contact" id='contact-btn'>Contact me</HashLink>
+        </div>
+      }
+
     </div>
   )
 }

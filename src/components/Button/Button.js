@@ -1,8 +1,8 @@
 import './Button.css'
 
-const Button = ({text, cssClass, icon, iconSize}) => {
+const Button = ({text, cssClass, icon, iconSize, parentFuction}) => {
   return (
-    <button className={`btn ${cssClass}`}>
+    <button className={`btn-smm ${cssClass}`} onClick={parentFuction}>
       {
         icon && <img src={icon} width={iconSize} alt={icon}/>
       }

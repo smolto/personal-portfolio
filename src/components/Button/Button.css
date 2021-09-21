@@ -1,4 +1,4 @@
-.btn {
+.btn-smm {
   padding: 10px;
   border: 0;
   border-radius: 9999px;
@@ -10,12 +10,12 @@
   justify-content: center;
 }
 
-.btn:focus {
+.btn-smm:focus {
   opacity: 1;
   outline: dashed var(--black);
 }
 
-.primary {
+.primary-smm {
   background-color: var(--primary-color);
   color: var(--white);
   transition: all;
@@ -23,10 +23,10 @@
   -moz-transition: all;
   -ms-transition: all;
   -o-transition: all;
-  transition-duration: .3s;
+  transition-duration: .15s;
 }
 
-.secondary {
+.secondary-smm {
   background-color: var(--white);
   color: var(--primary-color);
   transition: all;
@@ -34,10 +34,10 @@
   -moz-transition: all;
   -ms-transition: all;
   -o-transition: all;
-  transition-duration: .3s;
+  transition-duration: .15s;
 }
 
-.tertiary {
+.tertiary-smm {
   background-color: var(--grey);
   color: var(--white);
   transition: all;
@@ -45,23 +45,23 @@
   -moz-transition: all;
   -ms-transition: all;
   -o-transition: all;
-  transition-duration: .3s;
+  transition-duration: .15s;
   box-shadow: none;
 }
 
-.primary:hover {
+.primary-smm:hover {
   opacity: .7;
 }
 
-.secondary:hover {
+.secondary-smm:hover {
   background-color: #f5f5f5;
 }
 
-.tertiary:hover {
+.tertiary-smm:hover {
   opacity: .9;
 }
 
-.tertiary:focus {
+.tertiary-smm:focus {
   opacity: 1;
   outline: dashed var(--black);
 }
