@@ -1,19 +1,19 @@
-//COMPONENTS
+// COMPONENTS
 import NavBar from 'src/components/NavBar/NavBar'
 import Landing from 'src/components/Landing/Landing'
 import Footer from 'src/components/Footer/Footer'
 import Project from 'src/components/Project/Project'
 
-//IMAGES
+// IMAGES
 import signature from 'src/shared/assets/signature.svg'
 import project1 from 'src/shared/assets/projects/project1.svg'
 import project from 'src/shared/assets/projects/project1.png'
 import project2 from 'src/shared/assets/projects/project2.png'
 
-//STYLES
+// STYLES
 import 'src/pages/MyWorkPage/MyWorkPage.css'
 
-//MENU OPTIONS
+// MENU OPTIONS
 const menuOptions = [
   {
     link: '/',
@@ -31,15 +31,14 @@ const menuOptions = [
 ]
 
 export const MyWorkPage = () => {
-
   const htmlItem1 =
     (
       <>
         <div className="landing-message">
-          <h3 className={`landing-message__subtitle`}>Hard worker</h3>
-          <h1 className={`landing-message__title`}>My work.</h1>
-          <h1 className={`landing-message__title`}>Well done</h1>
-          <div className={`landing-message__img`}>
+          <h3 className={'landing-message__subtitle'}>Hard worker</h3>
+          <h1 className={'landing-message__title'}>My work.</h1>
+          <h1 className={'landing-message__title'}>Well done</h1>
+          <div className={'landing-message__img'}>
             <img src={signature} alt="sign" width={150} />
           </div>
         </div>
@@ -81,26 +80,26 @@ export const MyWorkPage = () => {
               <div className="smm__container-wrapper">
                 <div className="smm__container-wrapper__components">
                   <div className="smm__container-wrapper__components__project-component">
-                    <Project 
+                    <Project
                       bgImg={project}
                       gitHubLink={'https://github.com/smolto/bikers-shedule'}
                       webLink={'https://bikers-shedule.vercel.app/'}
                     />
-                    <Project 
+                    <Project
                       bgImg={project2}
                       gitHubLink={'https://github.com/smolto/trivial-clone'}
                       webLink={'https://trivial-clone.vercel.app/'}
                     />
-                    <Project 
+                    <Project
                       bgImg={project1}
                     />
-                    <Project 
+                    <Project
                       bgImg={project1}
                     />
-                    <Project 
+                    <Project
                       bgImg={project1}
                     />
-                    <Project 
+                    <Project
                       bgImg={project1}
                     />
                   </div>

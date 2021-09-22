@@ -2,16 +2,16 @@ import React, { Suspense, lazy } from 'react'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-} from "react-router-dom";
+  Route
+} from 'react-router-dom'
 
 // import { HomePage } from 'src/pages/HomePage/HomePage';
-import { AboutMePage } from 'src/pages/AboutMePage/AboutMePage';
-import { MyWorkPage } from 'src/pages/MyWorkPage/MyWorkPage';
+import { AboutMePage } from 'src/pages/AboutMePage/AboutMePage'
+import { MyWorkPage } from 'src/pages/MyWorkPage/MyWorkPage'
 
 const HomePage = lazy(() => import('src/pages/HomePage/HomePage'))
 
-export default function App() {
+export default function App () {
   return (
     <Router>
       <div>

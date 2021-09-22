@@ -1,16 +1,16 @@
-//COMPONENTS
+// COMPONENTS
 import NavBar from 'src/components/NavBar/NavBar'
 import Landing from 'src/components/Landing/Landing'
 import Footer from 'src/components/Footer/Footer'
 
-//IMAGES
+// IMAGES
 import techStack from 'src/shared/assets/dev_stack.svg'
 import devTools from 'src/shared/assets/dev_tools.svg'
 
-//STYLES
+// STYLES
 import 'src/pages/AboutMePage/AboutMePage.css'
 
-//MENU OPTIONS
+// MENU OPTIONS
 const menuOptions = [
   {
     link: '/',
@@ -23,12 +23,11 @@ const menuOptions = [
   },
   {
     link: '/work',
-    text: 'My work',
+    text: 'My work'
   }
 ]
 
 export const AboutMePage = () => {
-
   const htmlItem1 =
     (
       <>
@@ -52,6 +51,7 @@ export const AboutMePage = () => {
           desire to become a frontend developer.
         </h6>
         <h6 className="landing-about-me__content">
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           So now, in industry, this passion remains with me. There's certainly yer more to learn, yet more problems to solve and, yer more to build. Your imagination and commitment are the only limit.
         </h6>
         <h6 className="landing-about-me__content">
