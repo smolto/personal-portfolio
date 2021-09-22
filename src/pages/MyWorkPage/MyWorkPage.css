@@ -17,6 +17,12 @@
   background-color: var(--primary-color-dark);
 }
 
+.smm_container-weapper__components__title-container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
 .smm__container-wrapper__components__project-component {
   padding: 1.5rem;
   display: grid;

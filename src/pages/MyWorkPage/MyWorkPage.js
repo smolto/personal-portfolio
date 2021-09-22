@@ -79,6 +79,12 @@ export const MyWorkPage = () => {
             <div className="smm__container-wrapper__projects-container">
               <div className="smm__container-wrapper">
                 <div className="smm__container-wrapper__components">
+                  <div className="smm_container-weapper__components__title-container">
+                    <div>
+                      <h1>Projects</h1>
+                    </div>
+                  </div>
+                  <hr />
                   <div className="smm__container-wrapper__components__project-component">
                     <Project
                       bgImg={project}
