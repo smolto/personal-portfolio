@@ -1,8 +1,7 @@
 import 'src/components/Input/Input.css'
 
 const Input = ({ type, value, placeholder, cssClass, name, onChange, disabled, label }) => {
-
-  if (type !== 'textarea')
+  if (type !== 'textarea') {
     return (
       <input
         className={`${cssClass}`}
@@ -14,7 +13,7 @@ const Input = ({ type, value, placeholder, cssClass, name, onChange, disabled, l
         disabled={disabled}
       />
     )
-  else
+  } else {
     return (
       <textarea
         className={`textarea ${cssClass}`}
@@ -23,9 +22,10 @@ const Input = ({ type, value, placeholder, cssClass, name, onChange, disabled, l
         placeholder={placeholder}
         onChange={onChange}
         cols="20"
-        rows="7" 
+        rows="7"
       />
     )
+  }
 }
 
 export default Input

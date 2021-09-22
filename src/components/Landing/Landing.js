@@ -14,4 +14,4 @@ const Landing = ({ htmlItem1, htmlItem2, children }) => {
   )
 }
 
-export default Landing;
+export default Landing

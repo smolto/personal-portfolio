@@ -1,30 +1,21 @@
 import {
   Link
-} from "react-router-dom";
+} from 'react-router-dom'
 
 import Image from 'src/components/Image/Image'
-import Button from 'src/components/Button/Button'
-
-
 import logo from 'src/shared/assets/logo.svg'
 
 import './NavBar.css'
 
 import { HashLink } from 'react-router-hash-link'
 
-import { useHistory } from 'react-router'
-
-
 const NavBar = ({ menuOptions, showContactButton }) => {
-
-  const history = useHistory()
-  
   return (
     <div className="nav">
       <div className="logo">
         <Image
           src={logo}
-          alt={`logo`}
+          alt={'logo'}
         />
       </div>
 
