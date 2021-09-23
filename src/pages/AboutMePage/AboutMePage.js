@@ -52,7 +52,7 @@ export const AboutMePage = () => {
         </h6>
         <h6 className="landing-about-me__content">
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          So now, in industry, this passion remains with me. There's certainly yer more to learn, yet more problems to solve and, yer more to build. Your imagination and commitment are the only limit.
+          So now, in industry, this passion remains with me. There's certainly yer more to learn, yet more problems to solve and, yet more to build. Your imagination and commitment are the only limit.
         </h6>
         <h6 className="landing-about-me__content">
           Specialties: HTML, CSS, JavaScript (React.js), Graphql

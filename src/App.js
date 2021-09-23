@@ -8,6 +8,7 @@ import {
 // import { HomePage } from 'src/pages/HomePage/HomePage';
 import { AboutMePage } from 'src/pages/AboutMePage/AboutMePage'
 import { MyWorkPage } from 'src/pages/MyWorkPage/MyWorkPage'
+import { LoadingPage } from 'src/pages/LoadingPage/LoadingPage'
 
 const HomePage = lazy(() => import('src/pages/HomePage/HomePage'))
 
@@ -23,7 +24,7 @@ export default function App () {
             <MyWorkPage />
           </Route>
           <Route path="/">
-            <Suspense fallback={<h1>Loading...</h1>}>
+            <Suspense fallback={<LoadingPage />}>
               <HomePage />
             </Suspense>
           </Route>
