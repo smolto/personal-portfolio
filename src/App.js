@@ -18,10 +18,14 @@ export default function App () {
       <div>
         <Switch>
           <Route path="/about">
-            <AboutMePage />
+            <Suspense fallback={<LoadingPage />}>
+              <AboutMePage />
+            </Suspense>
           </Route>
           <Route path="/work">
-            <MyWorkPage />
+            <Suspense fallback={<LoadingPage />}>
+              <MyWorkPage />
+            </Suspense>
           </Route>
           <Route path="/">
             <Suspense fallback={<LoadingPage />}>
