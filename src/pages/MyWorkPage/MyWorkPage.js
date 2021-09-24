@@ -51,7 +51,7 @@ export const MyWorkPage = () => {
         <h6 className="landing-description__content">
           Here you can see a small sample of personal projects that I have been building in my free time.
           <br />
-          This projects are build using React.js framework and deployed on Vercel Platform.
+          This projects are built using React.js framework and deployed on Vercel Platform.
         </h6>
       </div>
     )
