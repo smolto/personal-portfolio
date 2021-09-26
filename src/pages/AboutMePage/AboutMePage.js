@@ -42,7 +42,7 @@ export const AboutMePage = () => {
       <div className="landing-about-me">
         <h6 className="landing-about-me__content">
           Ever since I was a little kid, computers has been my passion. I still remember sitting in front of my first PC and trying to fix it.
-          As I grew up, during high school, I was curious about how computers actually works and how those programs could be developed, that was the moment when I discovered software development.
+          As I grew up, during high school, I was curious about how computers actually work and how those programs could be developed, that was the moment when I discovered software development.
           I started to do read about programming language and to create my first programs.
         </h6>
         <h6 className="landing-about-me__content">
