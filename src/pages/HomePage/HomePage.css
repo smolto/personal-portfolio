@@ -3,6 +3,7 @@
   background-color: var(--primary-color);
   width: 100%;
   padding-bottom: 2rem;
+  min-height: 80vh;
 }
 
 .smm__container-wrapper__footer-component {
